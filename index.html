@@ -1,40 +1,95 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>
-        Hello World
-      </title>
+      <title>Skill Distillary Blog</title> 
+
+      <link rel="stylesheet" href="app.css" />
   </head>
-  <body>
-    <h1><em>Hello World!</em></h1>
-    <p> First Attempt with HTML.<p>
-    <h2>Step List</h2>
+    <body>
+    <h1><strong>Skill Distillary Blog</strong></h1>
+    <p id="para1">Robert Tisdale</p>
+
+
+    <h2><strong>What is the difference between ‘switch’ and ‘if/else’? When would you use one versus the other?</strong></h2>
       <ol>
-        <li>Get Up</li>
-        <li>Workout</li>
-        <li>Shower</li>
-        <li>Go To Work</li>
-        <li>Do Some Work</li>
+        <li>The if-else statement is used to choose between teo options, but the seithc case statement is used to choose between numerous options.</li>
+        <li>If the conidition inside the if block is false, the statement inside the else block is executed. If the condition inside the switch statement is false, the default statements are run.</li>
+        <li>If-else values are determined by constraints whereas switch case values are determined by user preferences.</li>
+        <li id="duh"><strong>It's difficult to make changes to if/else statements because it is time consuming to figure out where the change needs to be made. Switch Statements, on the other hands are simple to change since they are easy to trace</strong></li>
+        <li>For numerous statements, you can use several if statements. For numerous statements in Switch, you only have one expression.</li>
           <ul>
-            <a href="https://github.com/SkillDistillery">Skill Distillery Github</a>
-          </ul>
-        <li>Go To Bed</li>
+            <a href="https://www.scaler.com/topics/c/difference-between-if-else-and-switch/">Reference:Scaler.com</a>
       </ol>
-      <table>
-          <tr>Arbitrary text</tr>
+      <table id="compare">
           <tr>
-              <td>
-                <em>Test test test</em>
-              </td>
+            <td id ="td1"><strong>Parameter</strong></td>
+            <td><strong>If-Else</strong></td>
+            <td><strong>Switch</strong></td>
           </tr>
-              <td>
-                <img src="../../../../../Pictures/Wallpaper/mtspace.jpeg" 
-                  width="600"
-                  height="300" />
-              </td>
+          <tr>
+            <td><strong>Definition</strong></td>
+            <td>The if and else blocks are executed depending on the condition in the if statement</td>
+            <td>The switch statement has multiple cases, and the code block corresponding to that case is executed</td>
+          </tr>
+          <tr>
+            <td><strong>Evaluation</strong></td>
+            <td>Used for integer, character, pointer, floating-point type, or Boolean type.</td>
+            <td>Used for character expressions and integers.</td>
+          </tr>
+          <tr>
+            <td><strong>Testing</strong></td>
+            <td>Tests both logical expressions and equality</td>
+            <td>Tests only equality</td>
+          </tr>
+          <tr>
+            <td><strong>Expression</strong></td>
+            <td>Multiple statements for multiple decisions</td>
+            <td>Single statements for multiple decisions</td>
+          </tr>
+          <tr>
+            <td><strong>Default Execution</strong></td>
+            <td>If the condition inside the if-statement is false, then the code block under the else condition is executed</td>
+            <td>If the condition inside switch statements does not match any of the cases, the default statement is executed.</td>
+          </tr>
+          <tr>
+            <td><strong>Sequence of Execution</strong></td>
+            <td>Either the code block in the if statement is executed or the code block in the else statement.</td>
+            <td>The switch case statement performs each case until a break statement is encountered or the end of the switch statement is reached.</td>
+          </tr>
+          <tr>
+            <td><strong>Speed</strong></td>
+            <td>If you use 'if-else' to implement several options, the speed will be slow</td>
+            <td>If we have numerous options, the switch statement is the best solution because it executes considerably faster than the 'if-else' statement.</td>
+          </tr>
+          <tr>
+            <td><strong>Editing</strong></td>
+            <td>Difficult to edit nested if-else statements</td>
+            <td>Easy to edit.</td>
+          </tr>
+          <tr>
+            <td><strong>Values</strong></td>
+            <td>Based on constraint</td>
+            <td>Based on user</td>
           </tr>
       </table>
-    
 
-  </body>
+      <p>Both parameters have their pro's and cons; switch statements provide a limited subset of evaluations it can make (only char and int) where if-else is much more verbose and allows for multiple statements and multiple logic. However, switch statements are much easier to implement and modify making them very fast. Overall if the logic required is more on the simplistic side, switch statement is more than likely your go-to.</p>
+    </body>
+
+    <body>
+    <h2><strong>When would you use ‘=’ vs ‘==’ vs ‘.equals’? Explain what each of these does and in which cases you should use them.</strong></h2>
+    </body>
+
+    <body>
+    <h2><strong>To generate a random number you use ‘Math.random()’. What is ‘Math’? What is the return type of the ‘.random()’ method. Why is the ‘M’ in ‘Math’ capitalized</strong></h2>
+    </body>
+
+    <body>
+    <h2><strong>What does it mean to ‘cast a double to an int’? Give an example of when you would do this and explain what is happening.</strong></h2>
+    </body>
+
+    <body>
+    <h2><strong>What is the difference between ‘while’ and ‘do while’ loops? Give an example of when you would use one versus another. What is the benefit of a ‘do while’ over a ‘while’?</strong></h2>
+    </body>
+
 </html>

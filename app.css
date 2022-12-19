@@ -1,0 +1,25 @@
+h2 {
+	color : blueviolet;
+	text-align: center;
+}
+
+
+#para1 {
+	text-align: left;
+	color: green;
+}
+
+#duh {
+	color: red;
+}
+
+table, th, td {
+	border: 1px solid;
+}
+
+#compare {
+	border: black;
+	outline-style: solid;
+	outline-color: black;
+	inset-inline: black;
+}
